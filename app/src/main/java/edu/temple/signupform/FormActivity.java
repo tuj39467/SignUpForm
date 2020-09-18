@@ -22,6 +22,8 @@ public class FormActivity extends AppCompatActivity {
                 EditText confirmPass = findViewById(R.id.confirmPassword);
                 EditText emailAdd = findViewById(R.id.emailAddress);
 
+
+
                 String user = userName.getText().toString();
                 String passW = pass.getText().toString();
                 String cpass = confirmPass.getText().toString();
